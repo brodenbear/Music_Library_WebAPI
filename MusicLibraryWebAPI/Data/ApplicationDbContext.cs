@@ -8,7 +8,6 @@ namespace MusicLibraryWebAPI.Data
         public DbSet<Song> Songs { get; set; }
         public ApplicationDbContext(DbContextOptions options) : base(options) 
         { 
-        
         }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
@@ -18,7 +17,7 @@ namespace MusicLibraryWebAPI.Data
             modelBuilder.Entity<Song>().HasData(
                 new Song
                 {
-                    Id = 1,
+                   Id = 13,
                     Title = "Across The Way",
                     Artist = "Hello Moto",
                     Album = "Sea Change",
@@ -27,7 +26,7 @@ namespace MusicLibraryWebAPI.Data
                 },
                 new Song
                 {
-                    Id = 2,
+                   Id = 12,
                     Title = "Promise Broken",
                     Artist = "Journey",
                     Album = "World's Apart",
@@ -37,10 +36,10 @@ namespace MusicLibraryWebAPI.Data
                 },
                 new Song
                 {
-                    Id = 3,
+                   Id = 11,
                     Title = "Paper Tiger",
                     Artist = "Beck",
-                    Album = "Sea Change",
+                    Album = "Falacy",
                     ReleaseDate = DateTime.Today,
                     Genre = "Alternative"
                 }
