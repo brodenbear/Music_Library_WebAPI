@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "hWmlxgbG1QC0WTTVhSwaMMfQUZwoa1sa3AbWONZ4IeE=",
+  "Source": "MusicLibraryWebAPI",
+  "BasePath": "_content/MusicLibraryWebAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
