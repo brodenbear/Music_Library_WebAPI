@@ -23,7 +23,7 @@ namespace MusicLibraryWebAPI.Data
                     Artist = "Hello Moto",
                     Album = "Sea Change",
                     ReleaseDate = DateTime.Now,
-                    Genre = "rock"
+                    Genre = "Crunk"
                 },
                 new Song
                 {
@@ -34,6 +34,15 @@ namespace MusicLibraryWebAPI.Data
                     ReleaseDate = DateTime.Today,
                     Genre = "rock"
 
+                },
+                new Song
+                {
+                    Id = 3,
+                    Title = "Paper Tiger",
+                    Artist = "Beck",
+                    Album = "Sea Change",
+                    ReleaseDate = DateTime.Today,
+                    Genre = "Alternative"
                 }
                 );
         }
